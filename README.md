@@ -3,7 +3,8 @@ homebrew-ethos
 
 Homebrew tap for Ethos.
 
-NOTE: tested on 10.9+
+Tested on 10.9+
+
 
 ## Installation
 
