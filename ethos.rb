@@ -5,9 +5,9 @@ class Ethos < Formula
   version '0.1'
   homepage ""
 
-  # url 'http://18.85.59.189:8888/miner?token=' + ENV['ETHOS_TOKEN']
-  url 'http://127.0.0.1:8888/miner?token=' + ENV['ETHOS_TOKEN']
-  sha1 ""
+  url 'http://officebob.media.mit.edu:8888/miner?token=' + ENV['ETHOS_TOKEN']
+  # url 'http://127.0.0.1:8888/miner?token=' + ENV['ETHOS_TOKEN']
+  sha1 "" # TODO: fill out before deployment
 
   depends_on 'cmake' => :build
   depends_on 'boost' => ["c++11", "with-python"]
